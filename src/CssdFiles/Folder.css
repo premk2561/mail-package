@@ -1,0 +1,30 @@
+.compose
+{
+    background-color:#78DEC7 ;
+    display: block;
+    margin: auto;                                     /*compose button*/
+    margin-top: 15px;
+    width: 12rem;
+}
+
+.folder
+{
+    /* width: 12rem; */
+    margin: auto;
+    font-size: 13px;                         
+    margin-top: 10px;
+}
+
+.lable
+{
+    /* width: 12rem; */
+    margin: auto;
+    font-size: 13px;
+    margin-top: 5px;
+}
+#folder-content
+{
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}

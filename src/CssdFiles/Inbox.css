@@ -1,0 +1,23 @@
+.search
+{
+    background-color: #78DEC7;
+}
+.search-bar
+{
+    margin-left: 10rem;
+   
+}
+.btn-group
+{
+    height: 25px;
+    margin-left: 32rem;
+}
+
+input[type=checkbox]:checked
+{
+    background-color: #78DEC7;
+}
+td
+{
+    font-size: 13px;
+}

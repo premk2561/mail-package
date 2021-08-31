@@ -1,0 +1,45 @@
+.profile
+{
+    background-color: #293B5F;
+    font-size: 13px;
+    color: #E1E8EB;    
+}
+
+.kohli{
+       height: 70px;
+       width: 70px;
+       border-radius: 50%;
+}
+
+.navbar
+{
+    background-color: #47597E;                            /*lest side nav bar*/
+    width: 100%;
+}
+
+.navbar-nav
+{
+    margin-left: 10px;
+}
+.nav-item:hover
+{
+    background-color: #293B5F;
+}
+#drop
+{                                                      /*gropdown items*/
+    background-color: #293B5F;
+}
+
+.dropdown-item
+{
+    color: lightgray;
+}
+.dropdown-item:hover
+{
+    background-color: #47597E;
+    color: honeydew;
+}
+li{
+    font-size: 13px;
+    width: 100%;
+}

@@ -1,7 +1,6 @@
 {
-  "name": "react-mail",
+  "name": "@premk2561/react-mail-package",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -42,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "url": "git://github.com/premk2561/react-mail-package.git"
   }
 }

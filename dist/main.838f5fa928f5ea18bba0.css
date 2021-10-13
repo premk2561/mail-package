@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.menu-btn
+{
+    background-color:#78DEC7 ;
+    color:white;
+}
+.right-content
+{
+   
+ padding-left: 10rem; 
+    
+}
+.orange{
+    background-color: orange;
+}
+.hot-pink{
+    background-color: hotpink;
+}
+
+.compose
+{
+    background-color:#78DEC7 ;
+    display: block;
+    margin: auto;                                     /*compose button*/
+    margin-top: 15px;
+    width: 12rem;
+}
+
+.folder
+{
+    /* width: 12rem; */
+    margin: auto;
+    font-size: 13px;                         
+    margin-top: 10px;
+}
+
+.lable
+{
+    /* width: 12rem; */
+    margin: auto;
+    font-size: 13px;
+    margin-top: 5px;
+}
+#folder-content
+{
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+.search
+{
+    background-color: #78DEC7;
+}
+.search-bar
+{
+    margin-left: 10rem;
+   
+}
+.btn-group
+{
+    height: 25px;
+    margin-left: 32rem;
+}
+
+input[type=checkbox]:checked
+{
+    background-color: #78DEC7;
+}
+td
+{
+    font-size: 13px;
+}
+.profile
+{
+    background-color: #293B5F;
+    font-size: 13px;
+    color: #E1E8EB;    
+}
+
+.kohli{
+       height: 70px;
+       width: 70px;
+       border-radius: 50%;
+}
+
+.navbar
+{
+    background-color: #47597E;                            /*lest side nav bar*/
+    width: 100%;
+}
+
+.navbar-nav
+{
+    margin-left: 10px;
+}
+.nav-item:hover
+{
+    background-color: #293B5F;
+}
+#drop
+{                                                      /*gropdown items*/
+    background-color: #293B5F;
+}
+
+.dropdown-item
+{
+    color: lightgray;
+}
+.dropdown-item:hover
+{
+    background-color: #47597E;
+    color: honeydew;
+}
+li{
+    font-size: 13px;
+    width: 100%;
+}

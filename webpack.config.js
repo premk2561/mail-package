@@ -1,32 +1,23 @@
 const path = require('path');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-const nodeExternals = require('webpack-node-externals');
+const miniExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, '/src/index.js'),
+    entry: "./src/index.js",
     output: {
-        filename: 'index.js',
-        path: path.resolve(__dirname, './dist'),
-        libraryTargetL: 'umd',
-        umdNameDefine: true,
+        path: path.join(__dirname, "/dist"),
+        filename: 'index.js'
     },
-    externalPresets: { node: true },
-    externals: [nodeExternals()],
-    resolve: {
-        extensions: ['*', 'js', 'jsx']
+    devServer: {
+        port: 3010,
+        watchContentBase: true,
     },
     module: {
         rules: [
-            {
-                test: /\.(js|jsx)?$/, exclude: /node_modules/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env', '@babel/preset-react']
-                    }
-                }
-            }
+            { test: /\.(js|jsx)$/, exclude: /node_modules/, use: { loader: 'babel-loader' } },
+            { test: /\.css$/, use: [miniExtractPlugin.loader, 'css-loader'] }
         ]
     },
-    plugins: [new CleanWebpackPlugin()]
-}
+    plugins: [
+    new miniExtractPlugin({ filename: 'main.[hash].css' })],
+    mode: 'development',
+};
